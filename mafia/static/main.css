@@ -1,3 +1,41 @@
 body{
-    background-color: red;
+    background-image: url(img/والپیپر-فانتزی-طبیعت.jpg);
+    height: 100vh;
+    background-size: cover;
+    margin: 0;
+    animation: identifier 30s linear  infinite ;
+}
+
+*{
+    margin: 0;
+}
+
+@keyframes identifier {
+    0%{
+        background-image: url(img/والپیپر-فانتزی-طبیعت.jpg);
+    }
+    15%{
+        background-image: url(img/والپیپر-فانتزی-طبیعت.jpg);
+    }
+    25%{
+        background-image: url(img/والپیپر-4k-مشکی.jpg);
+    }
+    40%{
+        background-image: url(img/والپیپر-4k-مشکی.jpg);
+    }
+    50%{
+        background-image: url(img/والپیپر-نئونی-خفن-4k.jpg);
+    }
+    65%{
+        background-image: url(img/والپیپر-نئونی-خفن-4k.jpg);
+    }
+    75%{
+        background-image: url(img/والپیپر-4k-جوکر-در-آتش.jpg);
+    }
+    90%{
+         background-image: url(img/والپیپر-4k-جوکر-در-آتش.jpg);
+    }
+    100%{
+        background-image: url(img/والپیپر-فانتزی-طبیعت.jpg);
+    }
 }
