@@ -172,7 +172,7 @@ header nav .logo {
     width: 80%;
     height: 40px;
     background: transparent;
-    animation: identifier2 30s linear infinite;
+    border: 2px solid black;
     border-width: 2px;
     border-style: solid;
     border-radius: 10px;
@@ -190,13 +190,12 @@ header nav .logo {
 
 }
 
-.container .song_player .btns .btn{
+.container .song_player .btns .btn {
     width: 140px;
     height: 60px;
     background-color: transparent;
     border: 2px solid black;
     font-size: 30px;
     border-radius: 20px;
-    animation: identifier2 30s linear infinite;
     cursor: pointer;
 }

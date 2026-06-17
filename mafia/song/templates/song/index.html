@@ -1,7 +1,11 @@
 {% extends 'base.html' %}
 {% load static %}
+{% load render_partial %}
+
 
 {% block main %}
+{% render_partial 'song.views.HeaderView' %}
+
 <div class="container">
     <form method="post" action="" class="song_player">
         {% csrf_token %}
