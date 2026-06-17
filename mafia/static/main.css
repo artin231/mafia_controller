@@ -13,11 +13,11 @@ body {
     background-size: cover;
     margin: 0;
     animation: identifier 30s linear infinite;
-    font-family: 'vazir';
 }
 
 * {
     margin: 0;
+    font-family: 'vazir';
 }
 
 @keyframes identifier {
@@ -122,17 +122,20 @@ header nav .logo {
     animation: identifier2 30s linear infinite;
     border-width: 4px;
     border-style: solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-
 
 
 @keyframes identifier2 {
     0% {
-        border-color: blue;
+        border-color: rgb(9, 125, 202);
     }
 
     15% {
-        border-color: blue;
+        border-color: rgb(9, 125, 202);
     }
 
     25% {
@@ -144,11 +147,11 @@ header nav .logo {
     }
 
     50% {
-        border-color: green;
+        border-color: rgb(215, 17, 205);
     }
 
     65% {
-        border-color: green;
+        border-color: rgb(215, 17, 205);
     }
 
     75% {
@@ -160,6 +163,22 @@ header nav .logo {
     }
 
     100% {
-       border-color: blue;
+        border-color: blue;
     }
+}
+
+.container .song_player #select_song {
+    width: 80%;
+    height: 40px;
+    background: transparent;
+    animation: identifier2 30s linear infinite;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+        font-size: 20px;
+
+}
+
+.container .song_player #select_song option {
+    text-align: center;
 }
