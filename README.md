@@ -1,3 +1,3 @@
-# hamyar_atomi
-this is a site for enrgy_atomi school to help the teachers and students and personels
-this site is made with html,css,javascript,python(flask framework)
+mafia_controller
+a mafia game controller for playing game
+<h1 style="color:red;">this project is not finished!</h1>
