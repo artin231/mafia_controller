@@ -1,4 +1,5 @@
 {% extends 'base.html' %}
+{% load static %}
 
 {% block main %}
 <div class="container">
@@ -8,8 +9,8 @@
             <option value="{{ i.song.url }}">{{ i.name }}</option>
             {% endfor %}
         </select>
-        <audio src="{{ song.song.url }}"type="audio/mpeg"></audio>
+        <audio  class="player" src="{{ song.song.url }}"allow="autoplay" ></audio>
     </form>
 </div>
-
+<script src="{% static 'js/script.js' %}"></script>
 {% endblock %}
