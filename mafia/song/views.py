@@ -3,7 +3,7 @@ from django.views.generic import ListView
 from django.views import View
 from django.views.generic.base import TemplateView
 from .models import Song
-from django.http import HttpResponse,HttpRequest
+from django.http import HttpResponse,HttpRequest,JsonResponse
 from django.urls import reverse
 from django.http import Http404
 # Create your views here.
@@ -24,8 +24,10 @@ class ListSongView(View):
 class succes(View):
     def get(self,request):    
         print(request.POST)
-        get_song = request.session['current_song']
-        return HttpResponse(f'{get_song}')
+        song_id = request.GET.get('id')
+        song_new : Song = Song.objects.get(id=song_id)
+        return JsonResponse({'res':'finshed',
+                             'src':song_new.song.url})
     def post(self,request):
          return redirect(reverse('home'))
     

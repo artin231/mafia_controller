@@ -2,8 +2,11 @@ let play = document.querySelector('.play')
 let played = false;
 let audio = document.querySelector('.player')
 play.addEventListener('mousedown', async () => {
-    res = await fetch('/succses');
-    data = await res.text();
+    select_song = document.querySelector('#select_song');
+    console.log('/succses?id=' + select_song.value);
+    
+    res = await fetch('/succses?id=' + select_song.value);
+    data = await res.json();
 
     if (!played) {
         play.innerHTML = 'pause'
@@ -12,7 +15,7 @@ play.addEventListener('mousedown', async () => {
         if (data) {
             console.log(data);
             
-            audio.src = data;
+            audio.src = data.src;
         }
         audio.play()
     }

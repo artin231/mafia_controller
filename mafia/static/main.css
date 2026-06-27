@@ -184,14 +184,14 @@ header nav .logo {
     text-align: center;
 }
 
-.container .song_player .btns {
+ .btns {
     height: 20%;
     display: flex;
     gap: 20px;
 
 }
 
-.container .song_player .btns .btn {
+.btns .btn {
     width: 140px;
     height: 60px;
     background-color: transparent;

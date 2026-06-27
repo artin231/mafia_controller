@@ -5,18 +5,18 @@
 {% block main %}
 
 <div class="container">
-    <form method="post" action="{% url 'succes' %}" class="mafia song_player">
+    <div class="mafia song_player">
         {% csrf_token %}
         <select name="song" id="select_song">
             {% for i in songs %}
-            <option value="{{ i.name }}" {% if i == song %}  selected {% endif %}>{{ i.name }}</option>
+            <option value="{{ i.id }}" {% if i == song %}  selected {% endif %}>{{ i.name }}</option>
             {% endfor %}
         </select>
         <div class="btns">
         <button type="submit" class="btn play">play</button>
         </div>
         <audio  class="player" src="{{ song.song.url }}"allow="autoplay" ></audio>
-    </form>
+    </div>
     <div class="mafia timer one">
         <div class="timer_num">
             <p>0</p>
