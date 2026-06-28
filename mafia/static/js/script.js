@@ -33,7 +33,7 @@ let timer = (num) => {
     let num_timer = document.getElementById(`num_${num=='1'?'one':'two'}`);
     console.log(num_timer);
     
-    let btn = document.querySelector('#btn_ps');
+    let btn = document.querySelector(`#btn_ps_${num=='1'?'one':'two'}`);
     let timer_start = () => {
         num = Number(num_timer.innerHTML);
         num -= num_m;
