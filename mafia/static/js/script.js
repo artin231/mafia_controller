@@ -49,6 +49,7 @@ let timer = () => {
         btn.innerHTML = 'start';
         start = false;
         num_m = 0;
+        location.reload()
     }
 
 }
