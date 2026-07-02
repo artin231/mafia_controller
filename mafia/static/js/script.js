@@ -28,16 +28,23 @@ play.addEventListener('click', async () => {
 })
 let start = false;
 let timer = (num) => {
-    console.log(`#num_${num=='1'?'one':'two'}`);
-    
-    let num_timer = document.getElementById(`num_${num=='1'?'one':'two'}`);
+    console.log(`#num_${num == '1' ? 'one' : 'two'}`);
+
+    let num_timer = document.getElementById(`num_${num == '1' ? 'one' : 'two'}`);
     console.log(num_timer);
-    
-    let btn = document.querySelector(`#btn_ps_${num=='1'?'one':'two'}`);
+
+    let btn = document.querySelector(`#btn_ps_${num == '1' ? 'one' : 'two'}`);
     let timer_start = () => {
         num = Number(num_timer.innerHTML);
-        num -= num_m;
-        num_timer.innerHTML = num;
+        if (num <= 0) {
+            location.reload()
+        }
+        else {
+
+            num -= num_m;
+            num_timer.innerHTML = num;
+        }
+
     }
     num_m = 1;
     var intreval;
