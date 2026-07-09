@@ -6,8 +6,8 @@ from django.views.generic import View,DetailView
 class SiteAboutView(View):
     def get(self,request):
         ActiveAbout = models.Site.objects.filter(is_active=True).first()
-        return render(request,'sitesettings/about.html',{})
+        return render(request,'sitesettings/about.html',{'active':ActiveAbout})
 
 
     def post(request):
-        pass
+        return render(request,'sitesettings/about.html',{'active':models.Site.objects.filter(is_active=True).first()})
