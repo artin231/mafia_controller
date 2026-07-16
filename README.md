@@ -9,6 +9,10 @@ a mafia game controller for playing game
 <li>modern front</li>
 
 <h1>what we will add in Mafia Controller V2</h1>
+<li>sign in and login</li>
+<li> controling the  all of the game </li>
+<li> evrything will be dynamic</li>
+<li>better front</li>
 
 <h1> how to run this project </h1>
 <h2> for windows </h2>
