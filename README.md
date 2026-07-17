@@ -1,33 +1,40 @@
-mafia_controller
-a mafia game controller for playing game
+## Mafia Controller
+
+---
 
 <center><img src="./logo/ChatGPT Image Jul 17, 2026, 11_03_56 AM_compressed.jpg"></center>
 
-<h1>now we are working on the Mafia Controller V2</h1>
+# Now we are working on the Mafia Controller V2
 
-<h1>what are we now doing?</h1>
-<li>making a good readme</li>
-<li>making the Adobe XD designs</li>
+# Mafia Controller V1
+- timers for the game
+- music player
+- modern front
 
-<h1>Mafia Controller V1</h1>
-<li>timers for the game</li>
-<li>music player</li>
-<li>modern front</li>
+# What we will add in Mafia Controller V2
+- sign in and login
+- controling the  all of the game
+- evrything will be dynamic
+- better front
 
-<h1>what we will add in Mafia Controller V2</h1>
-<li>sign in and login</li>
-<li> controling the  all of the game </li>
-<li> evrything will be dynamic</li>
-<li>better front</li>
+---
 
-<h1> how to run this project </h1>
-<h2> for windows </h2>
-<p> 1. python -m venv venv </p>
-<p> 2. venv/Scripts/activate </p>
-<p> 3. cd mafia </p>
-<p> 4. python manage.py runserver </p>
-<h2> for linux </h2>
-<p> 1. python3 -m venv venv </p>
-<p> 2. source venv/bin/activate </p>
-<p> 3. cd mafia </p>
-<p> 4. python3 manage.py runserver </p>
+# How to run this project
+## 🪟 For Windows
+```
+python -m venv venv
+venv/Scripts/activate
+cd mafia
+python manage.py runserver
+```
+
+---
+
+## 🐧 For Gnu/Linux
+```
+python3 -m venv venv
+source venv/bin/activate
+cd mafia
+python3 manage.py runserver
+```
+
