@@ -5,6 +5,10 @@ a mafia game controller for playing game
 
 <h1>now we are working on the Mafia Controller V2</h1>
 
+<h1>what are we now doing?</h1>
+<li>making a good readme</li>
+<li>making the Adobe XD designs</li>
+
 <h1>Mafia Controller V1</h1>
 <li>timers for the game</li>
 <li>music player</li>
