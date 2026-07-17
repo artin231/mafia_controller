@@ -1,6 +1,8 @@
 mafia_controller
 a mafia game controller for playing game
 
+<center><img src="./XD/ChatGPT Image Jul 17, 2026, 11_03_56 AM.png"></center>
+
 <h1>now we are working on the Mafia Controller V2</h1>
 
 <h1>Mafia Controller V1</h1>
