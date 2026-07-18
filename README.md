@@ -20,10 +20,18 @@
 ---
 
 # How to run this project
+## first download the last version with this link:
+<a href="https://github.com/artin231/mafia_controller/releases/download/v1/MafiaController.zip">download V1</a>
+
+---
+
 ## 🪟 For Windows
+### first extract the file then open cmd
 ```
+cd MafiaController 
 python -m venv venv
 venv/Scripts/activate
+pip install -r requirements.txt
 cd mafia
 python manage.py runserver
 ```
@@ -31,10 +39,14 @@ python manage.py runserver
 ---
 
 ## 🐧 For Gnu/Linux
+### first extract the file then open bash
 ```
+cd MafiaController 
 python3 -m venv venv
 source venv/bin/activate
+pip install -r requirements.txt
 cd mafia
 python3 manage.py runserver
 ```
+
 
