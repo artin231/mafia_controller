@@ -49,4 +49,8 @@ cd mafia
 python3 manage.py runserver
 ```
 
+---
 
+# a picture of the V1:
+
+<img src="./pic/Screenshot From 2026-07-18 10-15-46.png">
