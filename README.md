@@ -30,7 +30,7 @@
 ```
 cd MafiaController 
 python -m venv venv
-venv/Scripts/activate
+venv\Scripts\activate
 pip install -r requirements.txt
 cd mafia
 python manage.py runserver
