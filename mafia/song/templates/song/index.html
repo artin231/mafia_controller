@@ -5,41 +5,7 @@
 {% block main %}
 
 <div class="container">
-            <audio class="tik" src="{{ song.song.url }}" allow="autoplay"></audio>
-    <div class="mafia timer one">
-        <div class="timer_num">
-            <p  class="num" id="num_one">40</p>
-        </div>
-        <div class="btns">
-            <button class="btn ps " id="btn_ps_one" onclick="timer('1',40)">start</button>
 
-        </div>
-        <h2>تایم صحبت چالش</h2>
-
-    </div>
-    <div class="mafia song_player">
-        {% csrf_token %}
-        <select name="song" id="select_song">
-            {% for i in songs %}
-            <option value="{{ i.id }}" {% if i == song %} selected {% endif %}>{{ i.name }}</option>
-            {% endfor %}
-        </select>
-        <div class="btns">
-            <button type="submit" class="btn play">play</button>
-        </div>
-        <audio class="player" src="{{ song.song.url }}" allow="autoplay"></audio>
-    </div>
-    <div class="mafia timer one">
-        <div class="timer_num">
-            <p class="num"  id="num_two">60</p>
-        </div>
-        <div class="btns">
-            <button class="btn ps " id="btn_ps_two" onclick="timer('2',60)">start</button>
-
-        </div>
-        <h2>تایم صحبت عادی</h2>
-
-    </div>
 </div>
 <script src="{% static 'js/script.js' %}"></script>
 {% endblock %}
