@@ -98,44 +98,6 @@ header nav .logo {
 }
 
 
-@keyframes identifier2 {
-  0% {
-    border-color: rgb(9, 125, 202);
-  }
-
-  15% {
-    border-color: rgb(9, 125, 202);
-  }
-
-  25% {
-    border-color: red;
-  }
-
-  40% {
-    border-color: red;
-  }
-
-  50% {
-    border-color: rgb(215, 17, 205);
-  }
-
-  65% {
-    border-color: rgb(215, 17, 205);
-  }
-
-  75% {
-    border-color: rgb(195, 226, 18);
-  }
-
-  90% {
-    border-color: rgb(195, 226, 18);
-  }
-
-  100% {
-    border-color: rgb(9, 125, 202);
-  }
-}
-
 .container .song_player #select_song {
   width: 80%;
   height: 40px;
