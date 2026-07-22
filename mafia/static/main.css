@@ -1,18 +1,18 @@
 :root {
-  --color: rgba(255, 255, 255, 0.47);
+  --bg_color : linear-gradient(90deg,#464646,#790101)
 }
 
 @font-face {
   font-family: 'vazir';
   src: url(fonts/Vazirmatn-Medium.ttf);
+  background: #790101;
 }
 
 body {
-  background-image: url(img/والپیپر-فانتزی-طبیعت.jpg);
+  background: var(--bg_color);
   height: 100vh;
   background-size: cover;
   margin: 0;
-  animation: identifier 30s linear infinite;
 }
 
 * {
@@ -20,43 +20,6 @@ body {
   font-family: 'vazir';
 }
 
-@keyframes identifier {
-  0% {
-    background-image: url(img/والپیپر-فانتزی-طبیعت.jpg);
-  }
-
-  15% {
-    background-image: url(img/والپیپر-فانتزی-طبیعت.jpg);
-  }
-
-  25% {
-    background-image: url(img/والپیپر-4k-مشکی.jpg);
-  }
-
-  40% {
-    background-image: url(img/والپیپر-4k-مشکی.jpg);
-  }
-
-  50% {
-    background-image: url(img/والپیپر-نئونی-خفن-4k.jpg);
-  }
-
-  65% {
-    background-image: url(img/والپیپر-نئونی-خفن-4k.jpg);
-  }
-
-  75% {
-    background-image: url(img/والپیپر-4k-جوکر-در-آتش.jpg);
-  }
-
-  90% {
-    background-image: url(img/والپیپر-4k-جوکر-در-آتش.jpg);
-  }
-
-  100% {
-    background-image: url(img/والپیپر-فانتزی-طبیعت.jpg);
-  }
-}
 
 header {
   width: 95%;
