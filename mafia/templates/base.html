@@ -15,16 +15,20 @@
 </head>
 
 <body>
-<header>
-    <nav>
-        <ul>
-            <li><a href="{% url 'home' %}">خانه</a></li>
-        </ul>
-        <div class="logo">
-            <h1>daneshpark</h1>
-        </div>
-    </nav>
-</header>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="{% url 'home' %}">شروع بازی</a></li>
+                <li><a href="{% url 'home' %}">درباره ی ما</a></li>
+                <li><a href="{% url 'home' %}">ارتباط با ما</a></li>
+            </ul>
+            <div class="left_part">
+                <img src="" class="logo" alt="">
+                <button class="login">ورود</button>
+                <button class="signup">ثبت نام</button>
+            </div>
+        </nav>
+    </header>
     {% block main %}
     {% endblock %}
 </body>
