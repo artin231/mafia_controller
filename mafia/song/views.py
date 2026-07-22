@@ -33,3 +33,6 @@ class succes(View):
     
 class HeaderView(TemplateView):
     template_name = 'partial/header.html'
+
+def header_part(request):
+     return render(request,'partial/header.html')

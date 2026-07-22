@@ -1,11 +1,12 @@
 {% extends 'base.html' %}
 {% load static %}
+{% load render_partial %}
 
 
 {% block main %}
 
 <div class="container">
-
+    {% render_partial 'song.views.header_part' %}
 </div>
 <script src="{% static 'js/script.js' %}"></script>
 {% endblock %}
