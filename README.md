@@ -26,7 +26,8 @@ git clone https://github.com/artin231/mafia_controller.git
 cd MafiaController 
 python -m venv venv
 venv\Scripts\activate
-pip install -r requirements.txt
+pip install django
+pip install django_render_partial
 cd mafia
 python manage.py runserver
 ```
