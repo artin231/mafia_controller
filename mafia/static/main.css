@@ -11,7 +11,7 @@
 
 body {
   background: var(--bg_color);
-  height: 100vh;
+  min-height: 100vh;
   background-size: cover;
   margin: 0;
 }
@@ -108,63 +108,45 @@ header nav .left_part button.signup {
   bottom: 0;
 }
 
-.container .mafia {
-  width: 500px;
-  height: 300px;
-  background-color: var(--color);
-  border-radius: 40px;
-  animation: identifier2 30s linear infinite;
-  border-width: 4px;
-  border-style: solid;
+.container .main{
+  width: 100%;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .main .text{
+  width: 70%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  gap: 30px;
-}
-
-
-.container .song_player #select_song {
-  width: 80%;
-  height: 40px;
-  background: transparent;
-  border: 2px solid black;
-  border-width: 2px;
-  border-style: solid;
-  border-radius: 10px;
-  font-size: 20px;
-}
-
-.container .song_player #select_song option {
+  gap: 20px;
   text-align: center;
 }
 
-.btns {
-  height: 20%;
-  display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
-
-}
-
-.btns .btn {
-  width: 140px;
-  height: 60px;
-  background-color: transparent;
-  border: 2px solid black;
-  font-size: 30px;
-  border-radius: 20px;
-  cursor: pointer;
-}
-
-
-
-.num {
+.container .main .text h1{
   font-size: 60px;
+  color: aliceblue; 
+  margin: 0;
 }
 
-@media screen and (max-width:1087px) {
-  body {
-    height: 100%;
-  }
+.container .main .text p{
+  font-size: 30px;
+  color: aliceblue; 
+  margin: 0;
+  width: 70%;
+}
+
+.container .main .text .btn_start_game{
+  width: 200px;
+  height: 50px;
+  background-color: #790101;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  text-decoration: none;
+  color: aliceblue;
+  border-radius: 10px;
 }
