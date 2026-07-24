@@ -1,6 +1,9 @@
 :root {
   --bg_color: linear-gradient(90deg, #464646, #790101);
   --header_color: rgb(241, 241, 241);
+  --btn_go_color:#be0000;
+  --btn_signup_color:rgb(0, 207, 0);
+  --btn_login_color:rgb(2, 90, 204);
 }
 
 @font-face {
@@ -86,13 +89,13 @@ header nav .left_part button {
 }
 
 header nav .left_part button.login {
-  background-color: rgb(2, 90, 204);
-  box-shadow: 0px 0px 10px rgb(2, 90, 204);
+  background-color: var(--btn_login_color);
+  box-shadow: 0px 0px 10px var(--btn_login_color);
 }
 
 header nav .left_part button.signup {
-  background-color: rgb(0, 207, 0);
-  box-shadow: 0px 0px 10px rgb(0, 207, 0);
+  background-color: var(--btn_signup_color);
+  box-shadow: 0px 0px 10px var(--btn_signup_color);
 }
 
 .container {
@@ -123,31 +126,32 @@ header nav .left_part button.signup {
   align-items: center;
   gap: 30px;
   text-align: center;
+  margin-bottom: 5%;
 }
 
 .container .main .text h1{
-  font-size: 60px;
+  font-size: 80px;
   color: aliceblue; 
   margin: 0;
 }
 
 .container .main .text p{
-  font-size: 30px;
+  font-size: 40px;
   color: aliceblue; 
   margin: 0;
-  max-width: 500px;
+  max-width: 600px;
 }
 
 .container .main .text .btn_start_game{
-  width: 200px;
-  height: 50px;
-  background-color: #be0000;
+  width: 225px;
+  height: 60px;
+  background-color: var(--btn_go_color);
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 30px;
+  font-size: 35px;
   text-decoration: none;
   color: aliceblue;
   border-radius: 10px;
-  box-shadow: 0px 0px 20px #be0000;
+  box-shadow: 0px 0px 20px var(--btn_go_color);
 }
