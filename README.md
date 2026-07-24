@@ -4,14 +4,12 @@
 
 <center><img src="./logo/ChatGPT Image Jul 17, 2026, 11_03_56 AM_compressed.jpg"></center>
 
-# Now we are working on the Mafia Controller V2
+# Now we are working on the Mafia Controller V1 and its not finished!
 
-# Mafia Controller V1
+# What we will have Mafia Controller V1
 - timers for the game
 - music player
 - modern front
-
-# What we will add in Mafia Controller V2
 - sign in and login
 - controling the  all of the game
 - evrything will be dynamic
@@ -20,14 +18,11 @@
 ---
 
 # How to run this project
-## first download the last version with this link:
-<a href="https://github.com/artin231/mafia_controller/releases/download/v1/MafiaController.zip">download V1</a>
-
----
 
 ## 🪟 For Windows
 ### first extract the file then open cmd
 ```
+git clone https://github.com/artin231/mafia_controller.git
 cd MafiaController 
 python -m venv venv
 venv\Scripts\activate
@@ -41,10 +36,12 @@ python manage.py runserver
 ## 🐧 For Gnu/Linux
 ### first extract the file then open bash
 ```
+git clone https://github.com/artin231/mafia_controller.git
 cd MafiaController 
 python3 -m venv venv
 source venv/bin/activate
-pip install -r requirements.txt
+pip install django
+pip install django_render_partial
 cd mafia
 python3 manage.py runserver
 ```
