@@ -82,6 +82,7 @@ header nav .left_part button {
   border: none;
   border-radius: 10px;
   transition: all 300ms ease;
+  font-size: 20px;
 }
 
 header nav .left_part button.login {
@@ -164,7 +165,6 @@ header nav .left_part button.signup {
 
 @media screen and (max-width:1087px) {
   body {
-
     height: 100%;
   }
 }
