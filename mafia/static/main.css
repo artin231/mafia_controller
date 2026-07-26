@@ -1,14 +1,14 @@
 :root {
   --bg_color: linear-gradient(90deg, #464646, #790101);
   --header_color: rgb(241, 241, 241);
-  --btn_go_color:#be0000;
-  --btn_signup_color:rgb(0, 207, 0);
-  --btn_login_color:rgb(2, 90, 204);
+  --btn_go_color: #be0000;
+  --btn_signup_color: rgb(0, 207, 0);
+  --btn_login_color: rgb(2, 90, 204);
   scroll-behavior: smooth;
 }
 
 @font-face {
-  font-family: 'vazir';
+  font-family: "vazir";
   src: url(fonts/Vazirmatn-Medium.ttf);
   background: #790101;
 }
@@ -21,10 +21,9 @@ body {
 
 * {
   margin: 0;
-  font-family: 'vazir';
+  font-family: "vazir";
   box-sizing: border-box;
 }
-
 
 header {
   width: 95%;
@@ -60,7 +59,6 @@ header nav ul li {
   list-style: none;
 }
 
-
 header nav ul li a {
   font-size: 25px;
   color: rgb(0, 0, 0);
@@ -72,7 +70,7 @@ header nav .left_part {
   display: flex;
   align-items: center;
   direction: ltr;
-  padding-left: .5%;
+  padding-left: 0.5%;
   gap: 10px;
 }
 
@@ -109,10 +107,9 @@ header nav .left_part button.signup {
   gap: 5%;
   flex-wrap: wrap;
   align-content: center;
-
 }
 
-.container .main{
+.container .main {
   background: var(--bg_color);
   width: 100%;
   height: 1000px;
@@ -122,7 +119,7 @@ header nav .left_part button.signup {
   position: relative;
 }
 
-.container .main .text{
+.container .main .text {
   width: 70%;
   display: flex;
   flex-direction: column;
@@ -132,20 +129,20 @@ header nav .left_part button.signup {
   margin-bottom: 10%;
 }
 
-.container .main .text h1{
+.container .main .text h1 {
   font-size: 80px;
-  color: aliceblue; 
+  color: aliceblue;
   margin: 0;
 }
 
-.container .main .text p{
+.container .main .text p {
   font-size: 40px;
-  color: aliceblue; 
+  color: aliceblue;
   margin: 0;
   max-width: 600px;
 }
 
-.container .main .text .btn_start_game{
+.container .main .text .btn_start_game {
   width: 225px;
   height: 60px;
   background-color: var(--btn_go_color);
@@ -159,39 +156,39 @@ header nav .left_part button.signup {
   box-shadow: 0px 0px 20px var(--btn_go_color);
 }
 
-.img_main1{
+.img_main1 {
   position: absolute;
   width: 600px;
   left: 0;
   bottom: 0;
 }
 
-.img_main2{
+.img_main2 {
   position: absolute;
   width: 600px;
   right: 0;
   bottom: 0;
 }
 
-.container .under{
+.container .under {
   width: 100%;
   height: 2000px;
   background: linear-gradient(rgb(71, 30, 30));
   border-top: 2px solid rgb(112, 112, 112);
 }
 
-.container .under .about{
+.container .under .about {
   width: 100%;
   height: 40%;
   display: flex;
   align-items: center;
-  justify-content:center ;
+  justify-content: center;
   border-bottom: 2px dashed rgb(112, 112, 112);
 }
 
-.container .under .about .box{
+.container .under .about .box {
   width: 450px;
-  height: 400px; 
+  height: 400px;
   background-color: #fff;
   border: 2px solid gray;
   border-radius: 40px;
@@ -203,12 +200,12 @@ header nav .left_part button.signup {
   padding-top: 2%;
 }
 
-.container .under .about .box h1{
+.container .under .about .box h1 {
   font-size: 40px;
 }
 
-.container .under .about .box p{
+.container .under .about .box p {
   width: 90%;
-    text-align: center;
-    font-size: 18px;
+  text-align: center;
+  font-size: 18px;
 }
