@@ -22,6 +22,7 @@ body {
 * {
   margin: 0;
   font-family: 'vazir';
+  box-sizing: border-box;
 }
 
 
@@ -177,4 +178,37 @@ header nav .left_part button.signup {
   height: 2000px;
   background: linear-gradient(rgb(71, 30, 30));
   border-top: 2px solid rgb(112, 112, 112);
+}
+
+.container .under .about{
+  width: 100%;
+  height: 40%;
+  display: flex;
+  align-items: center;
+  justify-content:center ;
+  border-bottom: 2px dashed rgb(112, 112, 112);
+}
+
+.container .under .about .box{
+  width: 450px;
+  height: 400px; 
+  background-color: #fff;
+  border: 2px solid gray;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  padding-top: 2%;
+}
+
+.container .under .about .box h1{
+  font-size: 40px;
+}
+
+.container .under .about .box p{
+  width: 90%;
+    text-align: center;
+    font-size: 18px;
 }
