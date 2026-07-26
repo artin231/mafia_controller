@@ -4,6 +4,7 @@
   --btn_go_color:#be0000;
   --btn_signup_color:rgb(0, 207, 0);
   --btn_login_color:rgb(2, 90, 204);
+  scroll-behavior: smooth;
 }
 
 @font-face {
@@ -113,7 +114,7 @@ header nav .left_part button.signup {
 .container .main{
   background: var(--bg_color);
   width: 100%;
-  height: 1100px;
+  height: 1000px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -169,4 +170,11 @@ header nav .left_part button.signup {
   width: 600px;
   right: 0;
   bottom: 0;
+}
+
+.container .under{
+  width: 100%;
+  height: 2000px;
+  background: linear-gradient(rgb(71, 30, 30));
+  border-top: 2px solid rgb(112, 112, 112);
 }
