@@ -198,6 +198,8 @@ header nav .left_part button.signup {
   text-align: center;
   gap: 20px;
   padding-top: 2%;
+
+  margin-left: -150vw;
 }
 
 .container .under .about .box h1 {
