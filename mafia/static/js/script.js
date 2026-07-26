@@ -1,15 +1,15 @@
-let aboutTop = Math.floor($(".about").offset().top); 
+let aboutTop = Math.floor($(".under").offset().top); 
 
 $(document).scroll((e) => {
-    
-
+  
   const scrollTop = $(window).scrollTop();
-  if (scrollTop + 600 > aboutTop && scrollTop < aboutTop ) {
+
+  if (scrollTop + 1100 > aboutTop ) {
     $(".box").animate(
       {
         margin: "0",
       },
-      1500
+      1000
     );
   }
 });
