@@ -212,7 +212,7 @@ header nav .left_part button.signup {
   font-size: 18px;
 }
 
-.container .under .contact{
+.container .under .contact {
   width: 100%;
   height: 60%;
   display: flex;
@@ -221,7 +221,8 @@ header nav .left_part button.signup {
 }
 
 
-.container .under .contact .left,.container .under .contact .right{
+.container .under .contact .left,
+.container .under .contact .right {
   width: 25%;
   height: 100%;
   display: flex;
@@ -229,14 +230,30 @@ header nav .left_part button.signup {
   justify-content: center;
 }
 
-.container .under .contact .middle{
+.container .under .contact .middle {
   width: 50%;
   height: 100%;
 }
 
-.container .under .contact .left .box,.container .under .contact .right .box{
+.container .under .contact .left .box,
+.container .under .contact .right .box {
   width: 300px;
   height: 230px;
   background-color: #6a6868;
   border-radius: 40px;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 400ms ease;
+}
+.container .under .contact .left .box:hover,
+.container .under .contact .right .box:hover{
+  transform: translateY(-5%);
+}
+
+.container .under .contact .right .box img{
+  width: 60%;
+}
+.container .under .contact .left .box img{
+  width: 90%;
 }
