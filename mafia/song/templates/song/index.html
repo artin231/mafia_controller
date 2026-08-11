@@ -47,15 +47,15 @@
                     <h1>ثبت پیام</h1>
                     <div class="item">
                         <p>نام</p>
-                        <input type="text" id="NameInput">
+                        <input type="text" id="NameInput" required>
                     </div>
                     <div class="item">
                         <p>ایمیل</p>
-                        <input type="text" id="EmailInput">
+                        <input type="text" id="EmailInput" required>
                     </div>
                     <div class="item">
                         <p>پیام</p>
-                        <textarea name="" id="MessageInput"></textarea>
+                        <textarea name="" id="MessageInput" required></textarea>
                     </div>
                     <input type="submit" id='SubmitComment' value="ثبت اطلاعات">
                 </form>
@@ -69,6 +69,7 @@
         </div>
     </div>
 </div>
+<script src="{% static 'js/sweetalert2.all.min.js' %}"></script>
 <script src="{% static 'js/jquery.min.js' %}"></script>
 <script src="{% static 'js/script.js' %}"></script>
 {% endblock %}
