@@ -8,13 +8,12 @@
 
 # What we will have Mafia Controller V1
 - timers for the game
-- music player
+- music player in the game
 - modern front
 - sign in and login
 - controling the  all of the game
 - evrything will be dynamic
-- better front
-
+- making the Mafia Game Easy
 ---
 
 # How to run this project
