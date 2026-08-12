@@ -39,8 +39,11 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'song',
     'django_render_partial',
-    'comments'
+    'comments',
+    'UserApp'
 ]
+
+AUTH_USER_MODEL = 'UserApp.UserModel'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

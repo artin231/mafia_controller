@@ -28,7 +28,7 @@ body {
 header {
   width: 95%;
   height: 60px;
-  position: fixed;
+  position: absolute;
   top: 2%;
   display: flex;
   gap: 20px;
